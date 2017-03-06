@@ -1,5 +1,5 @@
 # threejs-boilerplate
-Three.js boilerplate is a starter kit to begin a three.js project quickly and simply.
+Three.js boilerplate is a starter kit to begin a three.js project quickly and simply.<br>
 Enjoy and have fun!
 
 ## Demo
