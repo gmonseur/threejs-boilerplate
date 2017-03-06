@@ -136,7 +136,7 @@ function createBox() {
 var render = function () {
     stats.update();
 
-    // Cube scale rotation with guicontrols
+    // Cube rotation with guicontrols
     cube.rotation.y += guicontrols.rotationSpeed;
 
     // Render
