@@ -53,6 +53,7 @@ function createScene() {
     var floorMaterial = new THREE.MeshLambertMaterial({map: floorTexture, side: THREE.DoubleSide});
     var floorGeometry = new THREE.PlaneGeometry(1280, 1280, 100, 100);
     var floor = new THREE.Mesh(floorGeometry, floorMaterial);
+    floor.name = "floor";
     floor.position.y = -0.5;
     floor.rotation.x = Math.PI / 2;
     floor.receiveShadow = true;
@@ -97,11 +98,13 @@ var SHADOW_MAP_WIDTH = 2048, SHADOW_MAP_HEIGHT = 1024;
 function createLights() {
     // AMBIENTLIGHT
     ambientLight = new THREE.AmbientLight(0x404040); // soft white light
+    ambientLight.name = "ambientLight";
     ambientLight.intensity = 4;
     scene.add(ambientLight);
 
     // FRONTLIGHT
     frontLight = new THREE.SpotLight(0xffffff);
+    frontLight.name = "frontLight";
     frontLight.position.set(0, 3000, 5000);
     frontLight.target.position.set(0, 0, 0);
     frontLight.intensity = 0.2;
@@ -127,6 +130,7 @@ function createBox() {
     var material = new THREE.MeshLambertMaterial({map: crateTexture});
 
     cube = new THREE.Mesh(geometry, material);
+    cube.name = "cube";
     cube.castShadow = true;
     cube.position.set(0, 50, 0);
     scene.add(cube);
