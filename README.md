@@ -6,7 +6,7 @@ Enjoy and have fun!
 You can see this code in action here : https://gmonseur.github.io/threejs-boilerplate
 
 ## Features
-- [Three.js R76](https://threejs.org) : Javascript 3D library
+- [Three.js R84](https://threejs.org) : Javascript 3D library
 - [Dat-gui](https://github.com/dataarts/dat.gui) : Simple UI Controller
 - [Stats.js](https://github.com/mrdoob/stats.js) : JavaScript Performance Monitor
 - [Three-orbit-controls](https://github.com/mattdesl/three-orbit-controls) : Set of controls (orbiting, zooming and panning)
